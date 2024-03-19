@@ -32,3 +32,7 @@ This project is designed to demonstrate simple CRUD operations on a PostgreSQL d
     - `POSTGRES_PORT=5432`
 
 7.Run the application using the command `node app.js`
+
+
+## Video Demonstration
+https://youtu.be/SoFwaRp7QyM

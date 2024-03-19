@@ -11,13 +11,14 @@ async function main(){
         console.log('Calling getAllStudents...');     
         await getAllStudents();
 
-        // console.log('Calling addStudent...');
-        // await addStudent('Amy','Scoot','amy.scoot@example.com','2024-01-01');
+        console.log('Calling addStudent...');
+        await addStudent('Amy','Scoot','amy.scoot@example.com','2024-01-01');
 
-        // console.log('Calling updateStudentEmail...');
-        // await updateStudentEmail(3,'jimmy.doe@example.com');
-        // console.log('Calling deleteStudent...');
-        // await deleteStudent(1);
+        console.log('Calling updateStudentEmail...');
+        await updateStudentEmail(3,'jimmy.doe@example.com');
+
+        console.log('Calling deleteStudent...');
+        await deleteStudent(1);
     } catch (error) {
         console.log(error);
     }finally {
